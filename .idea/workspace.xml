@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="471afc50-3881-46ac-afd2-e4e877e3bdd0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ly--registry/pom.xml" afterPath="$PROJECT_DIR$/ly--registry/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/ly-gateway/src/main/java/com/leyou/gateway/LyGateway.java" afterPath="$PROJECT_DIR$/ly-gateway/src/main/java/com/leyou/gateway/LyGateway.java" />
+      <change beforePath="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/Goods.java" afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/Goods.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ly-registry/target/" />
+    <ignored path="$PROJECT_DIR$/ly-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ly--registry/target/" />
+    <ignored path="$PROJECT_DIR$/ly-item/target/" />
+    <ignored path="$PROJECT_DIR$/ly-item/ly-item-service/target/" />
+    <ignored path="$PROJECT_DIR$/ly-item/ly-item-interface/target/" />
+    <ignored path="$PROJECT_DIR$/ly--item/target/" />
+    <ignored path="$PROJECT_DIR$/ly--item/ly--item-service/target/" />
+    <ignored path="$PROJECT_DIR$/ly--item/ly--item-interface/target/" />
+    <ignored path="$PROJECT_DIR$/ly-common/target/" />
+    <ignored path="$PROJECT_DIR$/ly-upload/target/" />
+    <ignored path="$PROJECT_DIR$/ly-search/target/" />
+    <ignored path="$PROJECT_DIR$/ly-page/target/" />
+    <ignored path="$PROJECT_DIR$/ly-sms/target/" />
+    <ignored path="$PROJECT_DIR$/ly-user/target/" />
+    <ignored path="$PROJECT_DIR$/ly-user/ly-user-service/target/" />
+    <ignored path="$PROJECT_DIR$/ly-user/ly-user-interface/target/" />
+    <ignored path="$PROJECT_DIR$/ly-auth/target/" />
+    <ignored path="$PROJECT_DIR$/ly-auth/ly-auth-service/target/" />
+    <ignored path="$PROJECT_DIR$/ly-auth/ly-auth-common/target/" />
+    <ignored path="$PROJECT_DIR$/ly-cart/target/" />
+    <ignored path="$PROJECT_DIR$/ly--cart/target/" />
+    <ignored path="$PROJECT_DIR$/ly-order/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="le-you" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BrandService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecificationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/SpecificationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LyItemApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/LyItemApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrandClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-page/src/main/java/com/leyou/page/client/BrandClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-page/src/main/java/com/leyou/page/mq/ItemListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloCommon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/HelloCommon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CookieUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/CookieUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/JsonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Kotlin Interface" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>run dashboard</find>
+      <find>${spu</find>
+      <find>params</find>
+      <find>uerySkuBySpuId</find>
+      <find>load</find>
+      <find>DTO</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GotoClassSymbolConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="$XSLT" />
+      <filtered-out-file-type name="AIDL" />
+      <filtered-out-file-type name="AndroidDataBinding" />
+      <filtered-out-file-type name="Angular2HTML" />
+      <filtered-out-file-type name="AngularJS" />
+      <filtered-out-file-type name="Apple JS" />
+      <filtered-out-file-type name="Asp" />
+      <filtered-out-file-type name="AspectJ" />
+      <filtered-out-file-type name="CFML" />
+      <filtered-out-file-type name="CSS" />
+      <filtered-out-file-type name="CoffeeScript" />
+      <filtered-out-file-type name="CoffeeScriptLiterate" />
+      <filtered-out-file-type name="DB2" />
+      <filtered-out-file-type name="DTD" />
+      <filtered-out-file-type name="Decompiled SWF" />
+      <filtered-out-file-type name="Derby" />
+      <filtered-out-file-type name="Drools" />
+      <filtered-out-file-type name="ECMA Script Level 4" />
+      <filtered-out-file-type name="ECMAScript 6" />
+      <filtered-out-file-type name="EJBQL" />
+      <filtered-out-file-type name="EL" />
+      <filtered-out-file-type name="EQL" />
+      <filtered-out-file-type name="Exasol" />
+      <filtered-out-file-type name="FTL" />
+      <filtered-out-file-type name="Flow JS" />
+      <filtered-out-file-type name="GSP" />
+      <filtered-out-file-type name="GWT JavaScript" />
+      <filtered-out-file-type name="GWT-CSS" />
+      <filtered-out-file-type name="GenericSQL" />
+      <filtered-out-file-type name="Gherkin" />
+      <filtered-out-file-type name="Groovy" />
+      <filtered-out-file-type name="H2" />
+      <filtered-out-file-type name="HQL" />
+      <filtered-out-file-type name="HSQLDB" />
+      <filtered-out-file-type name="HTML" />
+      <filtered-out-file-type name="HTTP Request" />
+      <filtered-out-file-type name="Haml" />
+      <filtered-out-file-type name="InjectedFreeMarker" />
+      <filtered-out-file-type name="JAVA" />
+      <filtered-out-file-type name="JPAQL" />
+      <filtered-out-file-type name="JQL" />
+      <filtered-out-file-type name="JQuery-CSS" />
+      <filtered-out-file-type name="JSON" />
+      <filtered-out-file-type name="JSP" />
+      <filtered-out-file-type name="JSPX" />
+      <filtered-out-file-type name="JSRegexp" />
+      <filtered-out-file-type name="JSX Harmony" />
+      <filtered-out-file-type name="JShellLanguage" />
+      <filtered-out-file-type name="JavaScript" />
+      <filtered-out-file-type name="JavaScript 1.5" />
+      <filtered-out-file-type name="JavaScript 1.6" />
+      <filtered-out-file-type name="JavaScript 1.7" />
+      <filtered-out-file-type name="JavaScript 1.8" />
+      <filtered-out-file-type name="LESS" />
+      <filtered-out-file-type name="Lombok.Config" />
+      <filtered-out-file-type name="Manifest" />
+      <filtered-out-file-type name="Markdown" />
+      <filtered-out-file-type name="Mxml" />
+      <filtered-out-file-type name="MySQL" />
+      <filtered-out-file-type name="Nashorn JS" />
+      <filtered-out-file-type name="OGNL" />
+      <filtered-out-file-type name="Oracle" />
+      <filtered-out-file-type name="OracleSqlPlus" />
+      <filtered-out-file-type name="PROGUARD" />
+      <filtered-out-file-type name="Play" />
+      <filtered-out-file-type name="PointcutExpression" />
+      <filtered-out-file-type name="PostgreSQL" />
+      <filtered-out-file-type name="PostgresPLSQL" />
+      <filtered-out-file-type name="Properties" />
+      <filtered-out-file-type name="RELAX-NG" />
+      <filtered-out-file-type name="Redshift" />
+      <filtered-out-file-type name="RegExp" />
+      <filtered-out-file-type name="Renderscript" />
+      <filtered-out-file-type name="SASS" />
+      <filtered-out-file-type name="SCSS" />
+      <filtered-out-file-type name="SPI" />
+      <filtered-out-file-type name="SQL" />
+      <filtered-out-file-type name="SQL92" />
+      <filtered-out-file-type name="SQLite" />
+      <filtered-out-file-type name="SpEL" />
+      <filtered-out-file-type name="SpringDataQL" />
+      <filtered-out-file-type name="Stylus" />
+      <filtered-out-file-type name="Sybase" />
+      <filtered-out-file-type name="TEXT" />
+      <filtered-out-file-type name="TML" />
+      <filtered-out-file-type name="TSQL" />
+      <filtered-out-file-type name="ThymeleafExpressions" />
+      <filtered-out-file-type name="ThymeleafIterateExpressions" />
+      <filtered-out-file-type name="ThymeleafSpringSecurityExtras" />
+      <filtered-out-file-type name="ThymeleafTemplatesExpressions" />
+      <filtered-out-file-type name="ThymeleafUrlExpressions" />
+      <filtered-out-file-type name="TypeScript" />
+      <filtered-out-file-type name="TypeScript JSX" />
+      <filtered-out-file-type name="UAST" />
+      <filtered-out-file-type name="UastContextLanguage" />
+      <filtered-out-file-type name="VTL" />
+      <filtered-out-file-type name="Vue" />
+      <filtered-out-file-type name="VueJS" />
+      <filtered-out-file-type name="XHTML" />
+      <filtered-out-file-type name="XML" />
+      <filtered-out-file-type name="XPath" />
+      <filtered-out-file-type name="XPath2" />
+      <filtered-out-file-type name="YouTrack" />
+      <filtered-out-file-type name="kotlin" />
+      <filtered-out-file-type name="yaml" />
+    </file-type-list>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/StockMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SkuMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SpecGroupMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SpecParamMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SpuDetailMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SpuMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/SpecificationService.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/test/java/com/leyou/search/client/CategoryClientTest.java" />
+        <option value="$PROJECT_DIR$/ly-page/src/main/java/com/leyou/page/service/PageService.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/PayConfig.java" />
+        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/WXPayConfiguration.java" />
+        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/web/NotifyController.java" />
+        <option value="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/ly-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/web/OrderController.java" />
+        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/utils/PayHelper.java" />
+        <option value="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/HelloCommon.java" />
+        <option value="$PROJECT_DIR$/ly-user/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-user/ly-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-user/ly-user-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-search/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-page/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-order/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-item/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-common/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ly--cart/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-page/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ly-auth/ly-auth-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/hello.java" />
+        <option value="$PROJECT_DIR$/ly-page/src/main/java/com/leyou/LyPageApplication.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/Goods.java" />
+        <option value="$PROJECT_DIR$/ly-gateway/src/main/java/com/leyou/gateway/LyGateway.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ly--registry/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/LyItemApplication.java" />
+        <option value="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\course" />
+        <option name="mavenHome" value="D:/apache-tomcat-7.0.52-windows-x64/apache-maven-3.0.5-bin/apache-maven-3.0.5" />
+        <option name="userSettingsFile" value="D:\apache-tomcat-7.0.52-windows-x64\apache-maven-3.0.5-bin\apache-maven-3.0.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Accessibility</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization &gt; Bidirectional Text</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Lint</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>GPathGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 9Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective access issuesJava</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>SetupSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring SecuritySpring</id>
+          </State>
+          <State>
+            <id>Spring Web FlowSpring</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Velocity inspections</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MavenModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="le-you" type="b2602c69:ProjectViewProjectNode" />
+              <item name="le-you" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ly-auth/ly-auth-service/src/test/java" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;ACTION&#9;ChangesView.ApplyPatch" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.leyou.item.service" />
+      <recent name="com.leyou.page.service" />
+      <recent name="com.leyou.search.repository" />
+      <recent name="com.leyou.search.client" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.leyou.order.dto" />
+      <recent name="com.leyou.page.mq" />
+      <recent name="com.leyou.search.client" />
+      <recent name="com.leyou.item.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\course\JavaProject\le-you\ly-page\src\main\java\com\leyou\page\client" />
+      <recent name="E:\course\JavaProject\le-you\ly-page\src\main\resources" />
+      <recent name="E:\course\JavaProject\le-you\ly-page\src\main\java\com\leyou\page\web" />
+      <recent name="E:\course\JavaProject\le-you\ly-page\src\main\java\com\leyou" />
+      <recent name="E:\course\JavaProject\le-you\ly--item\ly--item-interface\src\main\java\com\leyou\item\pojo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.203861" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.LyCartApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="LySmsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.leyou.LySmsApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ly-sms" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="SmsTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ly-sms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.leyou" />
+      <option name="MAIN_CLASS_NAME" value="com.leyou.SmsTest" />
+      <option name="METHOD_NAME" value="testSend" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ly-item" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="LyAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyAuthApplication" />
+      <module name="ly-auth-service" />
+      <envs />
+    </configuration>
+    <configuration name="LyCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyCartApplication" />
+      <module name="ly--cart" />
+      <envs />
+    </configuration>
+    <configuration name="LyGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.gateway.LyGateway" />
+      <module name="ly-gateway" />
+      <envs />
+    </configuration>
+    <configuration name="LyItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyItemApplication" />
+      <module name="ly-item-service" />
+      <envs />
+    </configuration>
+    <configuration name="LyOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyOrderApplication" />
+      <module name="ly-order" />
+      <envs />
+    </configuration>
+    <configuration name="LyPageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyPageApplication" />
+      <module name="ly-page" />
+      <envs />
+    </configuration>
+    <configuration name="LyRegistry" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyRegistry" />
+      <module name="ly--registry" />
+      <envs />
+    </configuration>
+    <configuration name="LySearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LySearchApplication" />
+      <module name="ly-search" />
+      <envs />
+    </configuration>
+    <configuration name="LySmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LySmsApplication" />
+      <module name="ly-sms" />
+      <envs />
+    </configuration>
+    <configuration name="LyUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyUploadApplication" />
+      <module name="ly-upload" />
+      <envs />
+    </configuration>
+    <configuration name="LyUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyUserApplication" />
+      <module name="ly-user-service" />
+      <envs />
+    </configuration>
+    <configuration name="LyUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyUserApplication" />
+      <module name="ly-user-service" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="13">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.LyRegistry" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.LyGateway" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.LyItemApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.LyUploadApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.LySearchApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.LyPageApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.LyUserApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.LySmsApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.LyAuthApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.LyCartApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.LyOrderApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Application.LySmsApplication" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.SmsTest.testSend" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SmsTest.testSend" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LySmsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="471afc50-3881-46ac-afd2-e4e877e3bdd0" name="Default" comment="" />
+      <created>1553512981090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553512981090</updated>
+      <workItem from="1553512989764" duration="9900000" />
+      <workItem from="1553561586033" duration="216000" />
+      <workItem from="1553561888913" duration="5000" />
+      <workItem from="1553561953859" duration="571000" />
+      <workItem from="1553562582745" duration="829000" />
+      <workItem from="1553563440807" duration="11817000" />
+      <workItem from="1553668283726" duration="1909000" />
+      <workItem from="1553670438422" duration="5792000" />
+      <workItem from="1553677975225" duration="1381000" />
+      <workItem from="1553773631137" duration="2842000" />
+      <workItem from="1553941017035" duration="51000" />
+      <workItem from="1553941277312" duration="1325000" />
+      <workItem from="1554038639140" duration="1229000" />
+      <workItem from="1554039929597" duration="618000" />
+      <workItem from="1554080752177" duration="2142000" />
+      <workItem from="1554103467275" duration="2179000" />
+      <workItem from="1554105878528" duration="14483000" />
+      <workItem from="1554176611852" duration="217000" />
+      <workItem from="1554176912258" duration="509000" />
+      <workItem from="1554177491761" duration="1462000" />
+      <workItem from="1554187608052" duration="20000" />
+      <workItem from="1554188041434" duration="20993000" />
+      <workItem from="1554253975237" duration="14128000" />
+      <workItem from="1554375247104" duration="8938000" />
+      <workItem from="1554685826908" duration="20843000" />
+      <workItem from="1554773094704" duration="12866000" />
+      <workItem from="1554812331087" duration="7511000" />
+      <workItem from="1554857933765" duration="9084000" />
+      <workItem from="1554950547951" duration="529000" />
+      <workItem from="1555387165790" duration="6925000" />
+      <workItem from="1555838389673" duration="14697000" />
+      <workItem from="1555896402374" duration="18904000" />
+      <workItem from="1555981722866" duration="4375000" />
+      <workItem from="1556434605032" duration="22744000" />
+      <workItem from="1556500113099" duration="10020000" />
+      <workItem from="1556586350470" duration="4032000" />
+      <workItem from="1557021064725" duration="18104000" />
+      <workItem from="1557060608465" duration="11000" />
+      <workItem from="1557060716581" duration="126000" />
+      <workItem from="1557060883315" duration="3469000" />
+      <workItem from="1557110448998" duration="20793000" />
+      <workItem from="1557192520097" duration="27849000" />
+      <workItem from="1557277809487" duration="4255000" />
+      <workItem from="1557282142005" duration="1208000" />
+      <workItem from="1557283417457" duration="2285000" />
+      <workItem from="1557285856649" duration="20367000" />
+      <workItem from="1557625699258" duration="16165000" />
+      <workItem from="1557660589011" duration="13243000" />
+      <workItem from="1557708004449" duration="26412000" />
+      <workItem from="1557756882308" duration="4231000" />
+      <workItem from="1557796244237" duration="4678000" />
+      <workItem from="1557801619725" duration="5445000" />
+      <workItem from="1557807185374" duration="301000" />
+      <workItem from="1557807543165" duration="800000" />
+      <workItem from="1557815859287" duration="3279000" />
+      <workItem from="1558148610692" duration="4127000" />
+      <workItem from="1558259420447" duration="1709000" />
+      <workItem from="1558314672151" duration="12112000" />
+      <workItem from="1558399350439" duration="12605000" />
+      <workItem from="1558445836613" duration="795000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JwtTest - 2019.05.08 at 16h 54m 37s.xml">
+      <configuration name="JwtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest - 2019.05.08 at 16h 56m 30s.xml">
+      <configuration name="JwtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest - 2019.05.08 at 17h 24m 55s.xml">
+      <configuration name="JwtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest - 2019.05.08 at 17h 36m 16s.xml">
+      <configuration name="JwtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest - 2019.05.08 at 18h 01m 32s.xml">
+      <configuration name="JwtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest_testParseToken - 2019.05.08 at 16h 58m 01s.xml">
+      <configuration name="JwtTest.testParseToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest_testParseToken - 2019.05.08 at 17h 04m 02s.xml">
+      <configuration name="JwtTest.testParseToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest_testParseToken - 2019.05.08 at 18h 03m 02s.xml">
+      <configuration name="JwtTest.testParseToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest_testRsa - 2019.05.08 at 17h 00m 49s.xml">
+      <configuration name="JwtTest.testRsa" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest_testRsa - 2019.05.08 at 17h 25m 17s.xml">
+      <configuration name="JwtTest.testRsa" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="440455000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4517685" sideWeight="0.526475" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.63480395" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5261438" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.022690438" sideWeight="0.45083207" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50321543" sideWeight="0.47352496" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44732577" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268921" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2266881" sideWeight="0.4969743" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20801815" sideWeight="0.5530086" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22163388" sideWeight="0.4469914" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23146747" sideWeight="0.48195878" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ly-sms/src/main/java/com/leyou/sms/utils/SmsUtils.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ly-sms/src/main/java/com/leyou/sms/utils/SmsUtils.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/service/CartService.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ly--cart/src/main/java/com/leyou/cart/service/CartService.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="57" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="22" column="111" lean-forward="false" selection-start-line="22" selection-start-column="111" selection-end-line="22" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/LyOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/pojo/OrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/enums/PayState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/utils/PayHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="154" column="23" lean-forward="false" selection-start-line="154" selection-start-column="23" selection-end-line="154" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/web/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/enums/OrderStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="215" column="36" lean-forward="false" selection-start-line="215" selection-start-column="36" selection-end-line="215" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/web/NotifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-user/ly-user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="76" column="10" lean-forward="false" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-user/ly-user-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-upload/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-page/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="10" lean-forward="false" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="77" column="10" lean-forward="false" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.leyou.common:ly-gateway:1.0.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.leyou.common:ly-gateway:1.0.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.leyou.common:ly-gateway:1.0.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.0.1.RELEASE/org.springframework.security:spring-security-crypto:jar:5.0.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56/org.bouncycastle:bcprov-jdk15on:jar:1.56</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.29</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.29</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-web:jar:5.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/io.micrometer:micrometer-core:jar:1.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/io.micrometer:micrometer-core:jar:1.0.3/org.hdrhistogram:HdrHistogram:jar:2.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/io.micrometer:micrometer-core:jar:1.0.3/org.latencyutils:LatencyUtils:jar:2.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12/com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.aspectj:aspectjweaver:jar:1.8.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/com.google.guava:guava:jar:15.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1/org.reactivestreams:reactive-streams:jar:1.0.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.1.23.Final/io.netty:netty-codec:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-common:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-buffer:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-transport-native-unix-common:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-transport:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-transport:jar:4.1.23.Final/io.netty:netty-resolver:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/io.reactivex:rxjava:jar:1.3.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.code.findbugs:jsr305:jar:3.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/com.netflix.zuul:zuul-core:jar:1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/com.netflix.zuul:zuul-core:jar:1.3.1/commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/com.netflix.zuul:zuul-core:jar:1.3.1/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/com.netflix.zuul:zuul-core:jar:1.3.1/com.netflix.servo:servo-core:jar:0.12.21</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.github.vlsi.compactmap:compactmap:jar:1.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.github.vlsi.compactmap:compactmap:jar:1.2.1/com.github.andrewoma.dexx:dexx-collections:jar:0.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.0.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.0.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.5/org.apache.httpcomponents:httpcore:jar:4.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.0.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.5/commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.0.RELEASE/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.0.RELEASE/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/io.jsonwebtoken:jjwt:jar:0.9.0</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/joda-time:joda-time:jar:2.9.9</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.1.RELEASE</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.1.RELEASE</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework:spring-core:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework:spring-core:jar:5.0.5.RELEASE/org.springframework:spring-jcl:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework:spring-test:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.leyou.service:ly-auth-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
+            <node x="" y="">error:error:jar:unknown</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.29</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.29/org.apache.tomcat:tomcat-annotations-api:jar:8.5.29</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-aop:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-beans:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-context:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-expression:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/tk.mybatis:mapper-core:jar:1.0.4</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/tk.mybatis:mapper-core:jar:1.0.4/javax.persistence:persistence-api:jar:1.0</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/tk.mybatis:mapper-base:jar:1.0.4</node>
+            <node x="" y="">com.leyou.common:ly-common:jar:1.0.0-SNAPSHOT/tk.mybatis:mapper-extra:jar:1.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.4</node>
+            <node x="" y="">org.projectlombok:lombok:jar:1.16.20</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5357861580190743" x="3794.0" y="340.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-page/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly--cart/src/main/java/com/leyou/LyCartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-auth/ly-auth-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly--cart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="129" column="44" lean-forward="false" selection-start-line="129" selection-start-column="44" selection-end-line="129" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-auth/ly-auth-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-page/src/main/java/com/leyou/LyPageApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly--registry/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/java/com/leyou/gateway/LyGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly--registry/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="180" column="34" lean-forward="false" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/SpecificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-page/src/main/java/com/leyou/page/client/BrandClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-page/src/main/java/com/leyou/page/mq/ItemListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/HelloCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/LyItemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ly-item-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

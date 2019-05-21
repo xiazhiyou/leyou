@@ -1,0 +1,82 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.leyou.order.config.JwtProperties",
+      "name": "ly.jwt",
+      "type": "com.leyou.order.config.JwtProperties"
+    },
+    {
+      "sourceType": "com.leyou.order.config.WXPayConfiguration",
+      "name": "ly.pay",
+      "sourceMethod": "payConfig()",
+      "type": "com.leyou.order.config.PayConfig"
+    },
+    {
+      "sourceType": "com.leyou.order.config.IdWorkerProperties",
+      "name": "ly.worker",
+      "type": "com.leyou.order.config.IdWorkerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.leyou.order.config.JwtProperties",
+      "name": "ly.jwt.cookie-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.leyou.order.config.JwtProperties",
+      "name": "ly.jwt.pub-key-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.leyou.order.config.JwtProperties",
+      "name": "ly.jwt.public-key",
+      "type": "java.security.PublicKey"
+    },
+    {
+      "sourceType": "com.leyou.order.config.PayConfig",
+      "name": "ly.pay.app-i-d",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.leyou.order.config.PayConfig",
+      "defaultValue": 0,
+      "name": "ly.pay.http-connect-timeout-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.leyou.order.config.PayConfig",
+      "defaultValue": 0,
+      "name": "ly.pay.http-read-timeout-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.leyou.order.config.PayConfig",
+      "name": "ly.pay.key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.leyou.order.config.PayConfig",
+      "name": "ly.pay.mch-i-d",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.leyou.order.config.PayConfig",
+      "name": "ly.pay.notify-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.leyou.order.config.IdWorkerProperties",
+      "defaultValue": 0,
+      "name": "ly.worker.data-center-id",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.leyou.order.config.IdWorkerProperties",
+      "defaultValue": 0,
+      "name": "ly.worker.worker-id",
+      "type": "java.lang.Long"
+    }
+  ]
+}
