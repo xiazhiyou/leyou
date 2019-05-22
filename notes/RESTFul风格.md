@@ -1,4 +1,4 @@
-﻿
+
 # RESTFul风格
  RESTFul风格: 就是将资源的状态以适合客户端或服务端的形式从服务端转移到客户端（或者反过来）。在 REST 中，资源通过 URL（统一资源定位符） 进行识别和定位，然后通过行为(即 HTTP 方法)来定义 REST 来完成怎样的功能
 
@@ -12,11 +12,17 @@
 REST具有严格的规范，其主要就体现在对路径与返回的状态码必须严格遵循规则。
 规则如下：
   - 1）对路径有要求：（请求规范）
-&ensp;&ensp;遵循REST规范的URI定义：
-&ensp;&ensp;&ensp;&ensp;查询用户： http://localhost/user/{id}		        &ensp;&ensp;&ensp;&ensp;-GET
-&ensp;&ensp;&ensp;&ensp;添加用户： http://localhost/user/		        &ensp;&ensp;&ensp;&ensp;-POST
-&ensp;&ensp;&ensp;&ensp;修改用户： http://localhost/user/		        &ensp;&ensp;&ensp;&ensp;-PUT
-&ensp;&ensp;&ensp;&ensp;删除用户： http://localhost/user/{id}		        &ensp;&ensp;&ensp;&ensp;-DELETE
+  &ensp;&ensp;遵循REST规范的URI定义：
+
+  ​          查询用户： http://localhost/user/{id}		        -GET
+
+   	  添加用户： http://localhost/user/		               -POST
+
+  ​          修改用户： http://localhost/user/{id}	        &ensp;&ensp;&ensp;&ensp;-PUT
+  &ensp;        删除用户： http://localhost/user/{id}		        -DELETE
+
+  - &ensp;&ensp;查询用户： http://localhost/user/{id}		        &ensp;&ensp;&ensp;&ensp;-GET
+
 
 总结：即要求路径不允许有动词，必须是统一的名词，用路径占位符传参。通过请求方式判别增删改查业务。
 (而之前查询用户这样写：http://localhost/user/query?id=1)
