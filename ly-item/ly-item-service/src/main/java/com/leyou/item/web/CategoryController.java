@@ -34,6 +34,7 @@ public class CategoryController {
      */
     @GetMapping("list")
     //@GetMapping是一个组合注解，是@RequestMapping(method = RequestMethod.GET)的缩写。
+    // ResponseEntity Entity是一个实体，可返回状态码,由于状态码在响应行里，因此不能用@ResponseBody注解（把Java对象序列化放到响应体里）
     public ResponseEntity<List<Category>> queryCategoryListByPid(@RequestParam("pid")Long pid){
         return ResponseEntity.ok(categoryService.queryCategoryListByPid(pid));
     }
