@@ -19,11 +19,12 @@ REST具有严格的规范，其主要就体现在对路径与返回的状态码�
     - 修改用户： http://localhost/user/{id}		        -PUT
     - 删除用户： http://localhost/user/{id}		        -DELETE
 
+  总结：即要求路径不允许有动词，必须是统一的名词，用路径占位符传参。通过请求方式判别增删改查业务。
+  (而之前查询用户这样写：http://localhost/user/query?id=1)
+
   - &ensp;&ensp;查询用户： http://localhost/user/{id}		        &ensp;&ensp;&ensp;&ensp;-GET
 
 
-总结：即要求路径不允许有动词，必须是统一的名词，用路径占位符传参。通过请求方式判别增删改查业务。
-(而之前查询用户这样写：http://localhost/user/query?id=1)
 - 2）响应规范：
  &ensp;&ensp;必须严格返回状态码。如：查询成功(200),参数列表有误(400),资源或服务未汇未找到(404)
 
