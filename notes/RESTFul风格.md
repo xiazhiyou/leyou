@@ -14,12 +14,10 @@ REST具有严格的规范，其主要就体现在对路径与返回的状态码�
   - 1）对路径有要求：（请求规范）
   &ensp;&ensp;遵循REST规范的URI定义：
 
-  ​          查询用户： http://localhost/user/{id}		        -GET
-
-   	  添加用户： http://localhost/user/		               -POST
-
-  ​          修改用户： http://localhost/user/{id}	        &ensp;&ensp;&ensp;&ensp;-PUT
-  &ensp;        删除用户： http://localhost/user/{id}		        -DELETE
+    - 查询用户： http://localhost/user/{id}		        -GET
+    - 添加用户： http://localhost/user/		               -POST
+    - 修改用户： http://localhost/user/{id}		        -PUT
+    - 删除用户： http://localhost/user/{id}		        -DELETE
 
   - &ensp;&ensp;查询用户： http://localhost/user/{id}		        &ensp;&ensp;&ensp;&ensp;-GET
 
