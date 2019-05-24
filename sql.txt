@@ -51,7 +51,7 @@ INSERT INTO `tb_brand` VALUES (7888, '海信（Hisense）', '', 'H');
 INSERT INTO `tb_brand` VALUES (8214, '黑莓（BlackBerry）', '', 'H');
 INSERT INTO `tb_brand` VALUES (8551, '华硕（ASUS）', '', 'H');
 INSERT INTO `tb_brand` VALUES (8557, '华为（HUAWEI）', 'http://img10.360buyimg.com/popshop/jfs/t5662/36/8888655583/7806/1c629c01/598033b4Nd6055897.jpg', 'H');
-INSERT INTO `tb_brand` VALUES (8740, '惠普（HP）', '', 'H');
+INSERT INTO `tb_brand` VALUES (8740, '惠普（HP）', '', 'H'); 
 INSERT INTO `tb_brand` VALUES (9420, '金立（Gionee）', '', 'J');
 INSERT INTO `tb_brand` VALUES (9637, '京瓷（KYOCERA）', '', 'J');
 INSERT INTO `tb_brand` VALUES (10317, '康佳（KONKA）', '', 'K');
