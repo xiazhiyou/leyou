@@ -50,6 +50,6 @@ public class UploadService {
             log.error("[文件上传] 上传文件失败",e);
             throw new LyException(ExceptionEnum.UPLOAD_FILE_ERROR);
         }
-}
+    }
 
 }

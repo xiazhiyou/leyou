@@ -43,7 +43,7 @@ public class BrandService {
 
         //排序
         if(StringUtils.isNotBlank(sortBy)){
-            String orderByClause = sortBy + (desc ? " DESC" : " ASC");
+            String orderByClause = sortBy + (desc ? " DESC" : " ASC"); //注：" DESC"，DESC前有空格
             example.setOrderByClause(orderByClause);
         }
 

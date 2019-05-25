@@ -32,7 +32,7 @@ public class CategoryService {
      * @return
      */
     public List<Category> queryCategoryListByPid(Long pid) {
-
+        //查询条件，mapper会把对象中的非空属性作为查询条件
         Category t = new Category();
         t.setParentId(pid);
         List<Category> list = categoryMapper.select(t);

@@ -9,14 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * ClassName:CategoryController
- * PackageName:com.leyou.item.web
- * Description:
- *
- * @Date:2019/3/16 21:52
- * @Author:dianemax@163.com
- */
+
 @RestController
 @RequestMapping("category")
 //这个注解会将 HTTP 请求映射到 MVC 和 REST 控制器的处理方法上。

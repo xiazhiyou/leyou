@@ -18,7 +18,6 @@ public interface BrandMapper extends BaseMapper<Brand> {
     List<Brand> queryByCategoryId(@Param("cid")Long cid);
 
 
-    ///////////////////////////////////////////////////////////////////////////////
     @Select("SELECT brand_id from tb_category_brand where category_id = #{cid}")
     List<Brand> queryBrandByCid(@Param("cid")Long cid);
 
