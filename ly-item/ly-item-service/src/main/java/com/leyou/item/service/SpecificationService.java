@@ -31,11 +31,7 @@ public class SpecificationService {
     private BrandMapper brandMapper;
 
 
-    /**
-     * 查询规格组
-     * @param cid
-     * @return
-     */
+    // 根据分类id查询规格组
     public List<SpecGroup> queryGroupByCid(Long cid) {
 
         SpecGroup group = new SpecGroup();
@@ -50,18 +46,12 @@ public class SpecificationService {
         return list;
     }
 
-    /**
-     * 查询指定规格参数
-     * @param gid
-     * @param cid
-     * @param searching
-     * @return
-     */
+    // 根据组id查询规格参数
     public List<SpecParam> querySpecParams(Long gid, Long cid, Boolean searching) {
         SpecParam param = new SpecParam();
         param.setGroupId(gid);
-        param.setCid(cid);
-        param.setSearching(searching);
+//        param.setCid(cid);
+//        param.setSearching(searching);
         List<SpecParam> params = paramMapper.select(param);
 
         if(CollectionUtils.isEmpty(params)){

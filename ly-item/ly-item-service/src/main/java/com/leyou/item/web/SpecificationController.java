@@ -23,17 +23,13 @@ public class SpecificationController {
     @Autowired
     private BrandService brandService;
 
-    /**
-     * 根据分类id查询规格组
-     * @param cid
-     * @return
-     */
-
+    // 根据分类id查询规格组
     @GetMapping("groups/{cid}")
     public ResponseEntity<List<SpecGroup>>  queryGroupByCid(@PathVariable("cid")Long cid){
         return ResponseEntity.ok(specificationService.queryGroupByCid(cid));
     }
 
+    // 根据组id查询规格参数
     @GetMapping("/params")
     public ResponseEntity<List<SpecParam>> querySpecParams(@RequestParam(value = "gid",required = false)Long gid,
                                                            @RequestParam(value = "cid",required = false)Long cid,
