@@ -16,11 +16,7 @@ public class SearchController {
     @Autowired
     private SearchService searchService;
 
-    /**
-     * 搜索功能
-     * @param request
-     * @return
-     */
+   // 搜索功能
     @PostMapping("page")
     public ResponseEntity<PageResult<Goods>> search(@RequestBody SearchRequest request){
         return ResponseEntity.ok(searchService.search(request));

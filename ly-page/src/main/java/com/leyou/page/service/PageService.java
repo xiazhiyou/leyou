@@ -65,6 +65,7 @@ public class PageService {
         return model;
     }
 
+    // 创建html页面
     public void createHtml(Long spuId){
         //上下文
         Context context = new Context();
@@ -77,7 +78,7 @@ public class PageService {
             dest.delete();
         }
         try(PrintWriter writer = new PrintWriter(dest,"UTF-8")){
-                //生成html
+            //生成html
             templateEngine.process("item",context,writer);
         }catch (Exception e){
             log.error("[静态页服务] 生成静态页异常！",e);

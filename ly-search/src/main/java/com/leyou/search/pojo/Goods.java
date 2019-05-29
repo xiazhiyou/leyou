@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Set;
 
 @Data
-@Document(indexName = "goods", type = "docs", shards = 1, replicas = 0)
+@Document(indexName = "goods", type = "docs", shards = 1)
 public class Goods {
     @Id
     private Long id; // spuId
@@ -32,6 +32,4 @@ public class Goods {
     @Field(type = FieldType.keyword, index = false)
     private String skus;// sku信息的json结构，只是一个展示结果
     private Map<String, Object> specs;// 可搜索的规格参数，key是参数名，值是参数值
-
-
 }

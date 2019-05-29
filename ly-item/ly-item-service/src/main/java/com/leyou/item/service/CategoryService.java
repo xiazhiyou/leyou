@@ -10,15 +10,6 @@ import org.springframework.util.CollectionUtils;
 
 import java.util.List;
 
-/**
- * ClassName:CatagoryService
- * PackageName:com.leyou.item.service
- * Description:
- *
- * @Date:2019/3/16 21:50
- * @Author:dianemax@163.com
- */
-
 @Service
 public class CategoryService {
 
@@ -26,11 +17,7 @@ public class CategoryService {
     private CategoryMapper categoryMapper;
 
 
-    /**
-     * 查询商品分类的方法
-     * @param pid
-     * @return
-     */
+   // 根据pid查询商品种类
     public List<Category> queryCategoryListByPid(Long pid) {
         //查询条件，mapper会把对象中的非空属性作为查询条件
         Category t = new Category();
@@ -44,11 +31,7 @@ public class CategoryService {
         return list;
     }
 
-    /**
-     * 根据商品分类cid列表查询分类集合
-     * @param cids
-     * @return
-     */
+    // 根据商品分类cid列表查询分类集合
     public List<Category> queryByIds(List<Long> cids){
 
         List<Category> idList = categoryMapper.selectByIdList(cids);
@@ -58,6 +41,5 @@ public class CategoryService {
         }
 
         return idList;
-
     }
 }

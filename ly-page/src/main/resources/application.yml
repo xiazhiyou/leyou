@@ -3,7 +3,7 @@ server:
 spring:
   application:
     name: page-service
-  thymeleaf:
+  thymeleaf:  #thymeleaf做了缓存，我们应关掉
     cache: false
   rabbitmq:
       host: 192.168.184.130

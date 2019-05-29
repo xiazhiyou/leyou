@@ -46,6 +46,7 @@ public class GoodsService {
     @Autowired
     private AmqpTemplate amqpTemplate;
 
+    // 分页查询spu
     public PageResult<Spu> querySpuByPage(Integer page, Integer rows, Boolean saleable, String key) {
         //分页
         PageHelper.startPage(page,rows);
@@ -77,12 +78,14 @@ public class GoodsService {
             //处理分类名称
             List<String> names = categoryService.queryByIds(Arrays.asList(spu.getCid1(), spu.getCid2(), spu.getCid3()))
                     .stream().map(Category::getName).collect(Collectors.toList());
+            // 以'/'形式把一个集合拼成字符串
             spu.setCname(StringUtils.join(names,"/"));
             //处理品牌名称
             spu.setBname(brandService.queryById(spu.getBrandId()).getName());
         }
     }
 
+    //商品新增
     @Transactional
     public void saveGoods(Spu spu) {
         //新增spu
@@ -104,9 +107,19 @@ public class GoodsService {
 
         //发送mq消息
         amqpTemplate.convertAndSend("item.insert",spu.getId());
-
+        // this.sendMessage(spu.getId(), "insert");(将发送消息封装成了方法)
     }
 
+    private void sendMessage(Long id, String type){
+        // 发送消息
+        try {
+            this.amqpTemplate.convertAndSend("item." + type, id);
+        } catch (Exception e) {
+//            logger.error("{}商品消息发送异常，商品id：{}", type, id, e);
+        }
+    }
+
+    //新增sku和库存
     private void saveSkuAndStock(Spu spu) {
         int count;//新增sku
         List<Sku> skus = spu.getSkus();
@@ -125,9 +138,6 @@ public class GoodsService {
             stock.setSkuId(sku.getId());
             stock.setStock(sku.getStock());
             stockList.add(stock);
-            /*count = stockMapper.insert(stock);
-            if(count!=1)
-                throw new LyException(ExceptionEnum.GOODS_SAVE_ERROR);*/
         }
         //批量新增库存
         count = stockMapper.insertList(stockList);
@@ -135,6 +145,7 @@ public class GoodsService {
             throw new LyException(ExceptionEnum.GOODS_SAVE_ERROR);
     }
 
+    //根据spu的id查询详情detail
     public SpuDetail queryDetailById(Long spuId) {
         SpuDetail spuDetail = spuDetailMapper.selectByPrimaryKey(spuId);
         if(spuDetail==null)
@@ -142,6 +153,7 @@ public class GoodsService {
         return spuDetail;
     }
 
+    //根据spu查询下面所有的sku
     public List<Sku> querySkuBySpuId(Long spuId) {
         //查询sku
         Sku sku = new Sku();
@@ -158,10 +170,12 @@ public class GoodsService {
         }*/
 
         List<Long> ids = skuList.stream().map(Sku::getId).collect(Collectors.toList());
+        //将库存放到相应的sku中
         loadStockInSku(ids, skuList);
         return skuList;
     }
 
+    //将库存放到相应的sku中
     private void loadStockInSku(List<Long> ids, List<Sku> skus) {
         //查询库存
         List<Stock> stockList = stockMapper.selectByIdList(ids);
@@ -206,9 +220,10 @@ public class GoodsService {
 
         //发送mq消息
         amqpTemplate.convertAndSend("item.update",spu.getId());
-
+        //this.sendMessage(spu.getId(), "update");
     }
 
+    // 根据spu的id查询spu
     public Spu querySpuById(Long id) {
 
         //查询spu

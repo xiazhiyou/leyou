@@ -33,6 +33,7 @@ public interface GoodsApi {
     @GetMapping("spu/{id}")
     Spu querySpuById(@PathVariable("id") Long spuId);
 
+    //根据sku的id集合查询所有的sku
     @GetMapping("/sku/list/ids")
     List<Sku> querySkuByIds(@RequestParam("ids") List<Long> ids);
 

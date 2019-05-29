@@ -23,8 +23,8 @@ zuul:
   add-host-header: true     #添加host头信息
   sensitive-headers:
 ribbon:
-  ConnectTimeout: 10000 # 连接超时时间(ms)
-  ReadTimeout: 10000 # 通信超时时间(ms)
+  ConnectTimeout: 1000 # 连接超时时间(ms)
+  ReadTimeout: 3500 # 通信超时时间(ms)
   MaxAutoRetriesNextServer: 0 # 同一服务不同实例的重试次数
   MaxAutoRetries: 0 # 同一实例的重试次数
 hystrix:

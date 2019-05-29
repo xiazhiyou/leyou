@@ -22,15 +22,7 @@ public class BrandService {
     private BrandMapper brandMapper;
 
 
-    /**
-     * 根据多个条件查询品牌信息
-     * @param page
-     * @param rows
-     * @param sortBy
-     * @param desc
-     * @param key
-     * @return
-     */
+    // 根据多个条件查询品牌信息
     public PageResult<Brand> queryBrandByPage(Integer page, Integer rows, String sortBy, boolean desc, String key) {
         //分页
         PageHelper.startPage(page,rows);
@@ -58,12 +50,7 @@ public class BrandService {
         return new PageResult<>(pageInfo.getTotal(),list);
     }
 
-    /**
-     * 品牌的修改
-     *
-     * @param categories
-     * @param brand
-     */
+    // 品牌的修改
     @Transactional
     public void updateBrand(List<Long> categories, Brand brand) {
         //修改品牌
@@ -102,7 +89,7 @@ public class BrandService {
     }
 
     /**
-     * 品牌的删除后
+     * 品牌的删除
      * @param bid
      */
     public void deleteBrand(Long bid) {
@@ -112,14 +99,9 @@ public class BrandService {
         brandMapper.deleteCategoryBrandByBid(bid);
     }
 
-    /**
-     * 根据品牌brandid查询品牌名称
-     * @param id
-     * @return
-     */
+   // 根据品牌brandid查询品牌名称
     public Brand queryById(Long id){
         Brand brand = brandMapper.selectByPrimaryKey(id);
-
         if(brand == null){
             throw new LyException(ExceptionEnum.BRAND_NOT_FOUND);
         }
@@ -127,11 +109,7 @@ public class BrandService {
         return brand;
     }
 
-    /**
-     * 根据cid查到所有的品牌
-     * @param cid
-     * @return
-     */
+   // 根据cid查到所有的品牌
     public List<Brand> queryBrandByCid(Long cid) {
 
         //cid: category id 和 tb_category,tb_category_brand表都有关系，要自己写sql语句
@@ -146,9 +124,7 @@ public class BrandService {
 
     }
 
-    /**
-     * 根据bid的集合查询品牌信息
-     */
+    // 根据bid的集合查询品牌信息
     public List<Brand> queryBrandsByIds(List<Long> ids) {
         List<Brand> brands = brandMapper.selectByIdList(ids);
         if(CollectionUtils.isEmpty(brands)){

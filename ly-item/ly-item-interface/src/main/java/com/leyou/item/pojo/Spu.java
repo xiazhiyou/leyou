@@ -38,3 +38,12 @@ public class Spu {
     @Transient
     private SpuDetail spuDetail;
 }
+
+/*
+* 注：
+   - po：persisent object，持久对象；它的字段必须和数据库字段完全一致
+   - 由于数据库里没有商品分类和品牌的name字段，应该写成专门的vo对象（专门返回页面上的）
+   - 查出来的是spu po，应该转成vo。但将来从页面接收到vo转成spu po才能往数据库传，可能会有各种对象转换的错误
+   - 为了方便，我们把 商品分类和品牌的name字段 等字段添加到spu里去，由于这些字段数据库中没有，因此都应逐个添加`@Transient`注解（javax.persistence包下的）
+   - 不想返回到界面的字段 可以加一个`@JsonIgnore`注解
+* */

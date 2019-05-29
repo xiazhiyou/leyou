@@ -46,12 +46,12 @@ public class SpecificationService {
         return list;
     }
 
-    // 根据组id查询规格参数
+    // 查询规格参数集合
     public List<SpecParam> querySpecParams(Long gid, Long cid, Boolean searching) {
         SpecParam param = new SpecParam();
         param.setGroupId(gid);
-//        param.setCid(cid);
-//        param.setSearching(searching);
+        param.setCid(cid);
+        param.setSearching(searching);
         List<SpecParam> params = paramMapper.select(param);
 
         if(CollectionUtils.isEmpty(params)){
@@ -59,6 +59,33 @@ public class SpecificationService {
         }
 
         return params;
+    }
+
+    //根据cid查询规格组及其规格参数
+    public List<SpecGroup> queryListByCid(Long cid) {
+        // 查询规格组
+        List<SpecGroup> specGroups = queryGroupByCid(cid);
+
+        // 查询组内参数
+        List<SpecParam> specParams = querySpecParams(null, cid, null);
+
+        // 先把规格参数变成map，map的key是组Id,map的值是组下的所有参数
+        HashMap<Long, List<SpecParam>> map = new HashMap<>();
+        for (SpecParam param : specParams) {
+            if(!map.containsKey(param.getGroupId())){
+                // 如果不包含组Id，说明是第一次出现,因此要新增一个List
+                map.put(param.getGroupId(),new ArrayList<>());
+            }
+            // 如果group存在 也要添加
+            map.get(param.getGroupId()).add(param);
+        }
+
+        // 填充param到group中
+        for (SpecGroup specGroup : specGroups) {
+            specGroup.setParams(map.get(specGroup.getId()));
+        }
+
+        return specGroups;
     }
 
     //查询规格组及组内规格参数
@@ -143,31 +170,5 @@ public class SpecificationService {
         }
     }
 
-    //根据cid查询规格组及其规格参数
-    public List<SpecGroup> queryListByCid(Long cid) {
-        // 查询规格组
-        List<SpecGroup> specGroups = queryGroupByCid(cid);
 
-        // 查询组内参数
-        List<SpecParam> specParams = querySpecParams(null, cid, null);
-
-        // 先把规格参数变成map，map的key是组Id,map的值是组下的所有参数
-        HashMap<Long, List<SpecParam>> map = new HashMap<>();
-        for (SpecParam param : specParams) {
-            if(!map.containsKey(param.getGroupId())){
-                // 如果不包含组Id，说明是第一次出现,因此要新增一个List
-                map.put(param.getGroupId(),new ArrayList<>());
-            }
-            // 如果group存在 也要添加list
-            List<SpecParam> list = map.get(param.getGroupId());
-            list.add(param);
-        }
-
-        // 填充param到group中
-        for (SpecGroup specGroup : specGroups) {
-            specGroup.setParams(map.get(specGroup.getId()));
-        }
-
-        return specGroups;
-    }
 }

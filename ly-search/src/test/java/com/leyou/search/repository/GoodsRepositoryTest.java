@@ -32,7 +32,9 @@ public class GoodsRepositoryTest {
     private SearchService searchService;
     @Test
     public void testCreateIndex(){
+        // 创建索引库 会根据Item类的@Document注解信息来创建
         template.createIndex(Goods.class);
+        // 创建映射关系 会根据Item类中的id、Field等字段来自动完成映射
         template.putMapping(Goods.class);
     }
 
@@ -45,7 +47,7 @@ public class GoodsRepositoryTest {
             //查询spu信息
             PageResult<Spu> result = goodsClient.querySpuByPage(page, rows, true, null);
 
-            List<Spu> spuList = result.getItems();
+            List<Spu> spuList = result.getItems();//当前页
             if(CollectionUtils.isEmpty(spuList)){
                 break;
             }

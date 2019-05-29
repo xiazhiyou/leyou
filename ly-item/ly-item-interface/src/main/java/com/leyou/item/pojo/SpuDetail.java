@@ -8,7 +8,7 @@ import javax.persistence.Table;
 @Data
 @Table(name="tb_spu_detail")
 public class SpuDetail {
-    @Id
+    @Id   // id没有加上自增主键，因为这张表id不是自增的，而是和spu表的id关联的
     private Long spuId;// 对应的SPU的id
     private String description;// 商品描述
     private String genericSpec;// 商品特殊规格的名称及可选值模板

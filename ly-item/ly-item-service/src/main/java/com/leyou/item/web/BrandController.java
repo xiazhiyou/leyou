@@ -18,15 +18,7 @@ public class BrandController {
     @Autowired
     private BrandService brandService;
 
-    /**
-     * 分页查询品牌
-     * @param page
-     * @param rows
-     * @param sortBy
-     * @param desc
-     * @param key
-     * @return
-     */
+   // 分页查询品牌
     @GetMapping("page")
     public ResponseEntity<PageResult<Brand>> queryBrandByPage(
             @RequestParam(value = "page" , defaultValue = "1") Integer page,
@@ -42,12 +34,7 @@ public class BrandController {
 
     }
 
-    /**
-     * 新增品牌
-     * @param brand
-     * @param cids
-     * @return
-     */
+   // 新增品牌
     @PostMapping
     public ResponseEntity<Void> saveBrand(Brand brand,@RequestParam("cids")List<Long> cids){
         //用来处理Content-Type: 为 application/x-www-form-urlencoded编码的内容
@@ -58,16 +45,23 @@ public class BrandController {
         return ResponseEntity.status(HttpStatus.CREATED).build();//无返回体选择build
     }
 
-    /**
-     * 根据cid查询品牌
-     * @param cid
-     * @return
-     */
+    // 根据cid查询品牌
     @GetMapping("cid/{cid}")
     public ResponseEntity<List<Brand>> queryBrandByCid(@PathVariable("cid")Long cid){
         return ResponseEntity.ok(brandService.queryBrandByCid(cid));
     }
 
+    // 根据品牌brandid查询品牌名称
+    @GetMapping("{id}")
+    public ResponseEntity<Brand> queryBrandById(@PathVariable("id")Long id){
+        return ResponseEntity.ok(brandService.queryById(id));
+    }
+
+    // 根据bid的集合查询品牌信息
+    @GetMapping("list")
+    public ResponseEntity<List<Brand>> queryBrandsByIds(@RequestParam("ids")List<Long> ids){
+        return ResponseEntity.ok(brandService.queryBrandsByIds(ids));
+    }
     /**
      * 品牌的删除
      * @param bid
@@ -94,20 +88,9 @@ public class BrandController {
     }
 
 
-    /**
-     * 根据商品品牌ID查询品牌
-     * @param id
-     * @return
-     */
-    @GetMapping("{id}")
-    public ResponseEntity<Brand> queryBrandById(@PathVariable("id")Long id){
-        return ResponseEntity.ok(brandService.queryById(id));
-    }
 
-    @GetMapping("list")
-    public ResponseEntity<List<Brand>> queryBrandsByIds(@RequestParam("ids")List<Long> ids){
-        return ResponseEntity.ok(brandService.queryBrandsByIds(ids));
-    }
+
+
 
     /**
      *  品牌的修改

@@ -11,7 +11,6 @@ import java.util.Map;
 import java.util.Objects;
 
 @Data
-
 public class SearchResult extends PageResult<Goods> {
 
     private List<Category> categories;// 分类过滤条件
@@ -31,5 +30,4 @@ public class SearchResult extends PageResult<Goods> {
         this.brands = brands;
         this.specs = specs;
     }
-
 }

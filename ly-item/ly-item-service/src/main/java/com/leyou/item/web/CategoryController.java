@@ -20,11 +20,7 @@ public class CategoryController {
     @Autowired
     private CategoryService categoryService;
 
-    /**
-     * 根据pid查询商品种类
-     * @param pid
-     * @return
-     */
+    // 根据pid查询商品种类
     @GetMapping("list")
     //@GetMapping是一个组合注解，是@RequestMapping(method = RequestMethod.GET)的缩写。
     // ResponseEntity Entity是一个实体，可返回状态码,由于状态码在响应行里，因此不能用@ResponseBody注解（把Java对象序列化放到响应体里）
@@ -32,11 +28,7 @@ public class CategoryController {
         return ResponseEntity.ok(categoryService.queryCategoryListByPid(pid));
     }
 
-    /**
-     * 根据id查询分类
-     * @param ids
-     * @return
-     */
+    // 根据商品分类cid列表查询分类集合
     @GetMapping("list/ids")
     public ResponseEntity<List<Category>> queryCategoryByIds(@RequestParam("ids")List<Long> ids){
         return ResponseEntity.ok(categoryService.queryByIds(ids));
