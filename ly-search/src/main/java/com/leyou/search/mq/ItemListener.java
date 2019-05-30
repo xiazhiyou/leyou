@@ -15,6 +15,7 @@ public class ItemListener {
     @Autowired
     private SearchService searchService;
 
+    // 处理insert和update的消息
     @RabbitListener(bindings = @QueueBinding(
             value = @Queue(name = "search.item.insert.queue",durable = "true"),
             exchange = @Exchange(name = "ly.item.exchange",type = ExchangeTypes.TOPIC),
@@ -27,6 +28,7 @@ public class ItemListener {
         searchService.createOrUpdateIndex(spuId);
     }
 
+    // 处理delete的消息
     @RabbitListener(bindings = @QueueBinding(
             value = @Queue(name = "search.item.delete.queue",durable = "true"),
             exchange = @Exchange(name = "ly.item.exchange",type = ExchangeTypes.TOPIC),

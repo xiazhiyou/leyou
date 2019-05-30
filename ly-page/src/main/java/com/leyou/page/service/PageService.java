@@ -85,6 +85,7 @@ public class PageService {
         }
     }
 
+    // 删除html页面
     public void deleteHtml(Long spuId) {
         File dest = new File("E:\\course\\JavaProject\\upload", spuId + ".html");
 

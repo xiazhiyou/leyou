@@ -348,6 +348,7 @@ public class SearchService {
     }
 
 
+    // 对索引库进行新增或修改
     public void createOrUpdateIndex(Long spuId) {
         // 查询spu
         Spu spu = goodsClient.querySpuById(spuId);
@@ -358,7 +359,9 @@ public class SearchService {
 
     }
 
+    // 对索引库进行删除
     public void deleteIndex(Long spuId) {
+
         repository.deleteById(spuId);
     }
 }
