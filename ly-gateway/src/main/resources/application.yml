@@ -20,7 +20,7 @@ zuul:
       path: /upload/**
       serviceId: upload-service
       strip-prefix: false
-  add-host-header: true     #添加host头信息
+  add-host-header: true     #携带请求本身的host头信息
   sensitive-headers:
 ribbon:
   ConnectTimeout: 1000 # 连接超时时间(ms)

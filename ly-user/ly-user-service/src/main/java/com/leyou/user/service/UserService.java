@@ -66,6 +66,7 @@ public class UserService {
         redisTemplate.opsForValue().set(key, code, 5, TimeUnit.MINUTES);
     }
 
+    // 用户注册
     public void register(@Valid User user, String code) {
 
         // 从redis取出验证码
@@ -85,6 +86,7 @@ public class UserService {
         userMapper.insert(user);
     }
 
+    // 根据用户名和密码查询用户
     public User queryUsernameAndPassword(String username, String password) {
 
         User record = new User();

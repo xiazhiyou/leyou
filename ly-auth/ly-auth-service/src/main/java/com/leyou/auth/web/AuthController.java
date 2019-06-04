@@ -41,7 +41,8 @@ public class AuthController {
         // 登录功能的实现
         String token = authService.login(username, password);
 
-        // 将token写入cookie --- 工厂模式
+        // 将token写入cookie，--- 工厂模式
+        // 写入cookie通过response，response.addCookie(cookie)
         // httpOnly()：避免别的js代码来操作你的cookie，是一种安全措施
         // charset(): 不需要编码 因为token中没有中文
         // maxAge()： cookie的生命周期，默认是-1，代表一次会话，浏览器关闭cookie就失效
@@ -65,7 +66,7 @@ public class AuthController {
             // 解析token
             UserInfo info = JwtUtils.getInfoFromToken(token, prop.getPublicKey());
 
-            // 刷新token并重新生成cookie
+            // 刷新token，重新生成
             String newToken = JwtUtils.generateToken(info, prop.getPrivateKey(), prop.getExpire());
             //写入cookie
             CookieUtils.newBuilder(response).httpOnly().request(request).build(cookieName, newToken);

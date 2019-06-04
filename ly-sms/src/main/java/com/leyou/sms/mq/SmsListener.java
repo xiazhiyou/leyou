@@ -40,7 +40,7 @@ public class SmsListener {
         if(CollectionUtils.isEmpty(msg)){
             return;
         }
-        String phone = msg.remove("phone");
+        String phone = msg.remove("phone"); //获取并删除元素
         if(StringUtils.isBlank(phone)){
             return;
         }

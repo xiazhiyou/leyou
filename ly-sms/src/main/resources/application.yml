@@ -10,11 +10,11 @@ spring:
     virtual-host: /leyou
   redis:
     #数据库索引
-          host: 192.168.184.130
-          port: 6379
+      host: 192.168.184.130
+      port: 6379
 ly:
   sms:
     accessKeyId: LTAIxjqRJoeyf4kO # 自己的accessKeyId
     accessKeySecret: vYGT3XzfuSKgq2klSzTTnOu87CDenr # 自己的AccessKeySecret
     signName: 乐优商城 # 签名名称
-    verifyCodeTemplate: SMS_164575105 # 模板名称 sms参数均少一位，ID密码请去阿里云官方申请
+    verifyCodeTemplate: SMS_164575105 # 模板名称 sms参数均少一位，ID密码去阿里云官方申请

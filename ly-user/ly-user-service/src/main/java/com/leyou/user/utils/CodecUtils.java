@@ -5,13 +5,8 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.util.UUID;
 
-/**
- * @author: HuYi.Zhang
- * @create: 2018-04-30 15:56
- **/
+
 public class CodecUtils {
-
-
 
     public static String md5Hex(String data,String salt) {
         if (StringUtils.isBlank(salt)) {
@@ -28,6 +23,7 @@ public class CodecUtils {
     }
 
     public static String generateSalt(){
+
         return StringUtils.replace(UUID.randomUUID().toString(), "-", "");
     }
 }
