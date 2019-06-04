@@ -1,4 +1,6 @@
-﻿# nginx
+<font color="green">博客地址:</font> https://blog.csdn.net/qq_41649078/article/details/90453488
+
+# nginx
 # 1. 使用域名访问本地项目
 写在nginx之前的一些内容~
 为了项目优雅起见，我们都采用域名来访问。
