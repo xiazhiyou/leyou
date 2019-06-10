@@ -238,6 +238,7 @@ public class GoodsService {
         return spu;
     }
 
+    //根据sku的id集合查询所有的sku
     public List<Sku> querySkuByIds(List<Long> ids) {
         List<Sku> skus = skuMapper.selectByIdList(ids);
         if(CollectionUtils.isEmpty(skus)){

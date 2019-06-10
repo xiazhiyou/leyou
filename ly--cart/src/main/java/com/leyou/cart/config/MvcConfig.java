@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * 拦截器生效哦
+ * 拦截器生效
  */
 @Configuration
 @EnableConfigurationProperties(JwtProperties.class)

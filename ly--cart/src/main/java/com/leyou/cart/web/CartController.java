@@ -15,23 +15,21 @@ public class CartController {
     @Autowired
     private CartService cartService;
 
-    /**
-     * 新增商品到购物车
-     * @param cart
-     * @return
-     */
+    // 新增商品到购物车
     @PostMapping
     public ResponseEntity<Void> addCart(@RequestBody Cart cart){
         cartService.addCart(cart);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
+    // 查询购物车
     @GetMapping("list")
     public ResponseEntity<List<Cart>> queryCartList(){
 
         return ResponseEntity.ok(cartService.queryCartList());
     }
 
+    // 修改购物车商品数量
     @PutMapping
     public ResponseEntity<Void> updateCartNum(
             @RequestParam("id") Long skuId,
@@ -40,6 +38,7 @@ public class CartController {
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
 
+    // 删除购物车中商品
     @DeleteMapping("{skuId}")
     public ResponseEntity<Void> deleteCart(@PathVariable("skuId") Long skuId){
         cartService.deleteCart(skuId);

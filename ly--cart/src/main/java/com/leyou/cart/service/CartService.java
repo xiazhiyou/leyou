@@ -22,6 +22,7 @@ public class CartService {
 
     private static final String KEY_PREFIX = "cart:uid:";
 
+    // 新增商品到购物车
     public void addCart(Cart cart) {
         // 获取登录的用户 -- 从线程中获得
         UserInfo user = UserInterceptor.getUser();
@@ -34,9 +35,9 @@ public class CartService {
         if(operation.hasKey(hashKey)){
             // 如果存在  商品数量新增,新增之前先取出商品信息
             String json = operation.get(hashKey).toString();
-            Cart cacheCart = JsonUtils.parse(json, Cart.class);
+            Cart cacheCart = JsonUtils.parse(json, Cart.class);//转成对象
             cacheCart.setNum(cacheCart.getNum() + cart.getNum());
-            operation.put(hashKey,JsonUtils.serialize(cacheCart));
+            operation.put(hashKey,JsonUtils.serialize(cacheCart));//写回redis，转回json
         }else{
             // 如果不存在 新增
             operation.put(hashKey, JsonUtils.serialize(cart));
@@ -44,6 +45,7 @@ public class CartService {
 
     }
 
+    // 查询购物车
     public List<Cart> queryCartList() {
         // 获取登录的用户 -- 从线程中获得
         UserInfo user = UserInterceptor.getUser();
@@ -64,6 +66,7 @@ public class CartService {
         return carts;
     }
 
+    // 修改购物车商品数量
     public void updateCartNum(Long skuId, Integer num) {
         // 获取登录的用户 -- 从线程中获得
         UserInfo user = UserInterceptor.getUser();
@@ -72,6 +75,11 @@ public class CartService {
         // 获取登录用户的所有购物车
         BoundHashOperations<String, Object, Object> operation = redisTemplate.boundHashOps(key);
 
+        //判断是否存在
+        if(!operation.hasKey(skuId.toString())){
+            throw new LyException(ExceptionEnum.CART_NOT_FOUND);
+        }
+
         // 查询
         String json = operation.get(skuId.toString()).toString();
         Cart cart = JsonUtils.parse(json, Cart.class);
@@ -79,9 +87,9 @@ public class CartService {
 
         // 写回redis
         operation.put(skuId.toString(), JsonUtils.serialize(cart));
-
     }
 
+    // 删除购物车中商品
     public void deleteCart(Long skuId) {
         // 获取登录的用户 -- 从线程中获得
         UserInfo user = UserInterceptor.getUser();

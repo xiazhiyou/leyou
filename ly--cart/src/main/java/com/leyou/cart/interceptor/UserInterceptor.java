@@ -23,6 +23,7 @@ public class UserInterceptor implements HandlerInterceptor {
     private JwtProperties prop;
 
     public UserInterceptor(JwtProperties prop) {
+
         this.prop = prop;
     }
 
@@ -38,11 +39,11 @@ public class UserInterceptor implements HandlerInterceptor {
             UserInfo user = JwtUtils.getInfoFromToken(token, prop.getPublicKey());
 
             // 保存user -- request和thread是“共享”的，所以可以把user放到这两个中
-            tl.set(user); // key是不需要自己给定的，会自己获取
+            tl.set(user); // key是不需要给定，会自己获取,通过Thread.currentThread()
 
             return true;
 
-        } catch (Exception e) {
+        }catch (Exception e) {
             log.error("[购物车异常] 用户身份解析失败！", e);
             return false;
         }
