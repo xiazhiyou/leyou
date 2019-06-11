@@ -10,5 +10,4 @@ public class IdWorkerProperties {
     private long workerId;// 当前机器id
 
     private long dataCenterId;// 序列号
-
 }

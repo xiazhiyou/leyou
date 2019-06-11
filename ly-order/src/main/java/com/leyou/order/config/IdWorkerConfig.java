@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @EnableConfigurationProperties(IdWorkerProperties.class)
 public class IdWorkerConfig {
 
+    // 注册IdWorker
     @Bean
     public IdWorker idWorker(IdWorkerProperties prop) {
         return new IdWorker(prop.getWorkerId(), prop.getDataCenterId());

@@ -14,7 +14,7 @@ public abstract class AddressClient {
             address.setCity("西安");
             address.setDistrict("雁塔区");
             address.setName("mushrooom");
-            address.setPhone("18628597292");
+            address.setPhone("186****7292");
             address.setState("陕西");
             address.setZipCode("7100710");
             address.setIsDefault(true);
@@ -26,7 +26,7 @@ public abstract class AddressClient {
             address2.setCity("西安");
             address2.setDistrict("长安区");
             address2.setName("mushroom");
-            address2.setPhone("18628597292");
+            address2.setPhone("186****7292");
             address2.setState("陕西");
             address2.setZipCode("03500150");
             address2.setIsDefault(false);
@@ -42,5 +42,4 @@ public abstract class AddressClient {
         }
         return null;
     }
-
 }

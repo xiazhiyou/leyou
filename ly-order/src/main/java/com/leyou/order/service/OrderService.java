@@ -52,7 +52,7 @@ public class OrderService {
     @Autowired
     private PayHelper payHelper;
 
-    // 创建订单
+    // 创建订单，返回订单ID
     @Transactional
     public Long createOrder(OrderDTO orderDTO) {
 
@@ -68,7 +68,7 @@ public class OrderService {
         UserInfo user = UserInterceptor.getUser();
         order.setUserId(user.getId());
         order.setBuyerNick(user.getUsername());
-        order.setBuyerRate(false);
+        order.setBuyerRate(false);//用户评价
 
         // 1.3 收货人地址信息 -- orderDTO中只有地址ID（addressID），要根据地址ID去数据库中查询(假数据)
         AddressDTO addr = AddressClient.findById(orderDTO.getAddressId());
@@ -94,6 +94,7 @@ public class OrderService {
 
         Long totalPrice = 0L;
         for (Sku sku : skus) {
+            //计算商品总价
             totalPrice += sku.getPrice() * numMap.get(sku.getId());
 
             //封装orderDetail
