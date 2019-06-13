@@ -145,7 +145,7 @@ public class OrderService {
         return orderId;
     }
 
-
+    // 通过订单编号查询订单
     public Order queryOrderById(Long id) {
         //查询订单
         Order order = orderMapper.selectByPrimaryKey(id);
@@ -172,7 +172,7 @@ public class OrderService {
         return order;
     }
 
-
+    // 创建支付链接
     public String createPayUrl(Long orderId) {
         // 查询订单
         Order order = queryOrderById(orderId);
@@ -192,6 +192,7 @@ public class OrderService {
         return payHelper.createOrder(orderId, actualPay, desc);
     }
 
+    // 处理回调
     public void handleNotify(Map<String, String> result) {
         // 1 数据校验
         payHelper.isSuccess(result);
@@ -225,6 +226,7 @@ public class OrderService {
         log.info("[订单回调], 订单支付成功! 订单编号:{}", orderId);
     }
 
+    // 查询订单状态
     public PayState queryOrderState(Long orderId) {
 
         // 查询订单状态

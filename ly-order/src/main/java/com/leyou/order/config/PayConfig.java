@@ -17,7 +17,7 @@ public class PayConfig implements WXPayConfig {
 
     private int httpReadTimeoutMs;// = 5000;// 读取超时时间
 
-    private String notifyUrl;//异步通知商户,下单通知回调地址
+    private String notifyUrl;//异步通知商户（我们的地址，即现在这台服务器的地址）,下单通知回调地址
 
     @Override
     public InputStream getCertStream() {

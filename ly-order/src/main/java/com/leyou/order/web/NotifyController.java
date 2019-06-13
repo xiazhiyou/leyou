@@ -16,10 +16,7 @@ public class NotifyController {
     @Autowired
     private OrderService orderService;
 
-    /**
-     * 微信支付的成功回调
-     * @return
-     */
+    // 微信支付的成功回调
     @PostMapping(value = "pay",produces = "application/xml") //声明返回xml格式
     public Map<String,String> hello(@RequestBody Map<String,String> result){//消息转化器,在pom文件中引入了xml解析器
         //处理回调

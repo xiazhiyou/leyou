@@ -21,5 +21,4 @@ public class WXPayConfiguration {
 
         return new WXPay(payConfig, WXPayConstants.SignType.HMACSHA256);
     }
-
 }
