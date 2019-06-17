@@ -1,4 +1,6 @@
-﻿Thymeleaf是用来开发Web和独立环境项目的现代服务器端Java模板引擎。<br>
+博客地址: https://blog.csdn.net/qq_41649078/article/details/92627050
+
+Thymeleaf是用来开发Web和独立环境项目的现代服务器端Java模板引擎。<br>
 
 Thymeleaf的主要目标是为我们的开发工作流程带来优雅的*自然模板* - HTML（前后端人员都可以运行）。可以在直接浏览器中正确显示，并且可以作为静态原型，从而在开发团队中实现更强大的协作。
 
