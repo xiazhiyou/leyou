@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="471afc50-3881-46ac-afd2-e4e877e3bdd0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-common/pom.xml" afterPath="$PROJECT_DIR$/ly-common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/HelloCommon.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/HelloCommon.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/advice/CommonExceptionHandler.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/advice/CommonExceptionHandler.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/dto/CartDTO.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/dto/CartDTO.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/enums/ExceptionEnum.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/enums/ExceptionEnum.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/exception/LyException.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/exception/LyException.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/CookieUtils$CookieBuilder.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/CookieUtils$CookieBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/CookieUtils.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/CookieUtils.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/IdWorker.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/IdWorker.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/JsonUtils.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/JsonUtils.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/Md5Utils.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/Md5Utils.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/NumberUtils.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/NumberUtils.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/ThreadUtils.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/ThreadUtils.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/vo/ExceptionResult.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/vo/ExceptionResult.class" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/vo/PageResult.class" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/vo/PageResult.class" />
-      <change beforePath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/PayConfig.java" afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/PayConfig.java" />
-      <change beforePath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/WXPayConfiguration.java" afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/WXPayConfiguration.java" />
-      <change beforePath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/service/OrderService.java" afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/service/OrderService.java" />
-      <change beforePath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/web/NotifyController.java" afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/web/NotifyController.java" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="471afc50-3881-46ac-afd2-e4e877e3bdd0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ly-registry/target/" />
@@ -1166,7 +1144,7 @@
       <workItem from="1560128647219" duration="16250000" />
       <workItem from="1560215654173" duration="15937000" />
       <workItem from="1560311806686" duration="6113000" />
-      <workItem from="1560389213430" duration="5502000" />
+      <workItem from="1560389213430" duration="6098000" />
     </task>
     <servers />
   </component>
@@ -1203,7 +1181,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="613020000" />
+    <option name="totallyTimeSpent" value="613616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1216,7 +1194,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4517685" sideWeight="0.526475" order="7" side_tool="true" content_ui="tabs" />
@@ -1235,7 +1212,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10534846" sideWeight="0.45083207" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44732577" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31442463" sideWeight="0.47352496" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31442463" sideWeight="0.47352496" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268921" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2266881" sideWeight="0.4969743" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22995462" sideWeight="0.5530086" order="0" side_tool="false" content_ui="combo" />
